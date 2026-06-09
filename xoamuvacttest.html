@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xoá Mù VACT – Thông tin Kỳ thi V-ACT 2026 | HOCMAIBOOK</title>
+  <meta name="description" content="Tổng hợp thông tin kỳ thi Đánh giá năng lực V-ACT 2026 của ĐHQG TP.HCM: cấu trúc đề, lịch thi, phổ điểm 2 đợt, quy đổi thang điểm. Đồng hành cùng 2K9.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://USERNAME.github.io/vact-website/">
+  <meta property="og:title" content="Xoá Mù VACT – Thông tin Kỳ thi V-ACT 2026">
+  <meta property="og:description" content="Cấu trúc đề, lịch thi, phổ điểm 2026 và cộng đồng ôn luyện V-ACT. Đồng hành cùng bạn trên hành trình ĐGNL.">
+  <meta property="og:image" content="https://USERNAME.github.io/vact-website/assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <style>
+    :root{
+      --navy:#1e3a8a;
+      --navy-light:#3b5bb8;
+      --amber:#f59e0b;
+      --tiktok:#fe2c55;
+      --fb:#1877f2;
+      --bg:#f8fafc;
+      --text:#1e293b;
+      --muted:#64748b;
+      --card:#ffffff;
+      --border:#e2e8f0;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+      color:var(--text);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased;
+    }
+    .wrap{max-width:880px;margin:0 auto;padding:0 20px}
+    section{padding:48px 0}
+    h2{font-size:1.6rem;color:var(--navy);margin-bottom:8px;font-weight:800}
+    .sub{color:var(--muted);margin-bottom:24px;font-size:.98rem}
+
+    /* HERO */
+    .hero{
+      background:linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 100%);
+      color:#fff;text-align:center;padding:64px 20px 56px;
+    }
+    .hero .badge{
+      display:inline-block;background:rgba(255,255,255,.15);
+      padding:6px 16px;border-radius:999px;font-size:.85rem;margin-bottom:18px;font-weight:600;
+    }
+    .hero h1{font-size:2.4rem;font-weight:900;letter-spacing:.5px;margin-bottom:14px;line-height:1.2}
+    .hero h1 span{color:var(--amber)}
+    .hero p{font-size:1.05rem;max-width:560px;margin:0 auto 28px;opacity:.95}
+    .btn{
+      display:inline-block;background:var(--amber);color:#fff;text-decoration:none;
+      padding:13px 28px;border-radius:10px;font-weight:700;font-size:1rem;
+      transition:transform .15s,box-shadow .15s;box-shadow:0 4px 14px rgba(245,158,11,.4);
+    }
+    .btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(245,158,11,.5)}
+
+    /* INTRO STATS */
+    .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:8px}
+    .stat{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px;text-align:center}
+    .stat .num{font-size:1.7rem;font-weight:900;color:var(--navy)}
+    .stat .lbl{font-size:.9rem;color:var(--muted);margin-top:4px}
+
+    /* PHỔ ĐIỂM */
+    .scores{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .scard{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;border-top:4px solid var(--amber)}
+    .scard h3{color:var(--navy);font-size:1.15rem;margin-bottom:14px}
+    .scard .row{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px dashed var(--border);font-size:.95rem}
+    .scard .row:last-child{border-bottom:none}
+    .scard .row b{color:var(--navy);font-weight:700}
+    .note{font-size:.85rem;color:var(--muted);margin-top:14px;font-style:italic}
+
+    /* CỘNG ĐỒNG */
+    .community{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .ccard{
+      display:flex;flex-direction:column;align-items:center;gap:10px;text-decoration:none;
+      color:#fff;padding:28px 18px;border-radius:16px;font-weight:700;text-align:center;
+      transition:transform .15s;
+    }
+    .ccard:hover{transform:translateY(-3px)}
+    .ccard.fb{background:var(--fb)}
+    .ccard.tt{background:var(--tiktok)}
+    .ccard .ico{font-size:2rem}
+    .ccard .small{font-size:.85rem;font-weight:500;opacity:.9}
+
+    /* FORM */
+    .formbox{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px}
+    .formbox label{display:block;font-weight:600;margin-bottom:6px;font-size:.95rem}
+    .formbox textarea{
+      width:100%;border:1px solid var(--border);border-radius:10px;padding:12px;
+      font-size:1rem;font-family:inherit;resize:vertical;min-height:90px;
+    }
+    .formbox textarea:focus{outline:none;border-color:var(--navy)}
+    .formbox .btn{border:none;cursor:pointer;margin-top:14px;width:100%}
+    .formbox .msg{margin-top:12px;font-size:.92rem;display:none}
+    .formbox .msg.ok{color:#16a34a;display:block}
+    .formbox .msg.err{color:#dc2626;display:block}
+
+    /* FOOTER */
+    footer{background:var(--navy);color:#fff;text-align:center;padding:32px 20px;font-size:.9rem}
+    footer .disc{opacity:.75;margin-top:8px;font-size:.82rem}
+    footer a{color:var(--amber);text-decoration:none}
+
+    @media(max-width:600px){
+      .hero h1{font-size:1.8rem}
+      .stats,.scores,.community{grid-template-columns:1fr}
+      h2{font-size:1.35rem}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <span class="badge">📚 HOCMAIBOOK đồng hành cùng 2K9</span>
+    <h1>XOÁ MÙ <span>VACT</span></h1>
+    <p>Tất tần tật về kỳ thi Đánh giá năng lực V-ACT 2026 của ĐHQG TP.HCM — cấu trúc đề, lịch thi, phổ điểm và quy đổi thang điểm. Đơn giản, dễ hiểu, đáng tin.</p>
+    <a class="btn" href="#scores">Xem phổ điểm 2026 →</a>
+  </header>
+
+  <!-- GIỚI THIỆU KỲ THI -->
+  <section id="intro" class="wrap">
+    <h2>Kỳ thi V-ACT 2026 là gì?</h2>
+    <p class="sub">Kỳ thi Đánh giá năng lực do ĐHQG TP.HCM tổ chức, thi trên giấy, dùng để xét tuyển vào nhiều trường đại học.</p>
+    <div class="stats">
+      <div class="stat"><div class="num">120</div><div class="lbl">câu hỏi</div></div>
+      <div class="stat"><div class="num">150</div><div class="lbl">phút làm bài</div></div>
+      <div class="stat"><div class="num">1.200</div><div class="lbl">thang điểm tối đa</div></div>
+      <div class="stat"><div class="num">2 đợt</div><div class="lbl">thi trong năm 2026</div></div>
+    </div>
+    <p class="note">Đơn vị tổ chức: ĐHQG TP.HCM · Đăng ký & tra cứu tại <a href="https://thinangluc.vnuhcm.edu.vn" target="_blank" rel="noopener">thinangluc.vnuhcm.edu.vn</a></p>
+  </section>
+
+  <!-- PHỔ ĐIỂM 2026 -->
+  <section id="scores" class="wrap">
+    <h2>Phổ điểm V-ACT 2026</h2>
+    <p class="sub">Số liệu chính thức từ ĐHQG TP.HCM. Dùng để bạn tự định vị mục tiêu điểm số của mình.</p>
+    <div class="scores">
+      <div class="scard">
+        <h3>🟦 Đợt 1 — Tháng 4/2026</h3>
+        <div class="row"><span>Số thí sinh</span><b>~136.000</b></div>
+        <div class="row"><span>Điểm trung bình</span><b>682</b></div>
+        <div class="row"><span>Điểm trung vị</span><b>682</b></div>
+        <div class="row"><span>Điểm cao nhất</span><b>1.098</b></div>
+        <div class="row"><span>Điểm thấp nhất</span><b>27</b></div>
+        <div class="row"><span>Dưới 600 điểm</span><b>~30%</b></div>
+        <div class="row"><span>Đạt 900+</span><b>~6%</b></div>
+      </div>
+      <div class="scard">
+        <h3>🟧 Đợt 2 — 24/5/2026</h3>
+        <div class="row"><span>Số thí sinh</span><b>170.125</b></div>
+        <div class="row"><span>Điểm trung bình</span><b>670,9</b></div>
+        <div class="row"><span>Điểm cao nhất</span><b>1.139</b></div>
+        <div class="row"><span>Điểm thấp nhất</span><b>53</b></div>
+        <div class="row"><span>Đạt 700+</span><b>42%</b></div>
+        <div class="row"><span>Dưới 600 điểm</span><b>~35%</b></div>
+        <div class="row"><span>Đạt 900+</span><b>~8%</b></div>
+      </div>
+    </div>
+    <p class="note">💡 Quy đổi nhanh thang 30: Điểm VACT ÷ 1.200 × 30. (Cách chính thức của Bộ GD dùng bách phân vị theo Công văn 2457/BGDĐT-GDĐH.)</p>
+  </section>
+
+  <!-- FORM CÂU HỎI -->
+  <section id="question" class="wrap">
+    <h2>Bạn có câu hỏi về V-ACT?</h2>
+    <p class="sub">Cứ gửi cho tụi mình nhé — câu hỏi của bạn có thể trở thành nội dung giải đáp tiếp theo trên kênh.</p>
+    <div class="formbox">
+      <label for="q">Câu hỏi của bạn</label>
+      <textarea id="q" placeholder="VD: Em được 720 điểm thì quy đổi sang thang 30 là bao nhiêu ạ?"></textarea>
+      <button class="btn" id="send" type="button">Gửi câu hỏi 📨</button>
+      <div class="msg" id="msg"></div>
+    </div>
+  </section>
+
+  <!-- CỘNG ĐỒNG -->
+  <section id="community" class="wrap">
+    <h2>Tham gia cộng đồng ôn luyện</h2>
+    <p class="sub">Học cùng nhau cho vui và cho nhanh. Cập nhật thông tin thi cử mới nhất tại đây.</p>
+    <div class="community">
+      <a class="ccard fb" href="https://www.facebook.com/share/g/1FqJj3Whgj/" target="_blank" rel="noopener">
+        <span class="ico">👥</span>
+        <span>Group: TRỌ HỌC TẬP</span>
+        <span class="small">Facebook · Hỏi đáp & chia sẻ tài liệu</span>
+      </a>
+      <a class="ccard tt" href="https://www.tiktok.com/@hocdot791" target="_blank" rel="noopener">
+        <span class="ico">🎵</span>
+        <span>@hocdot791</span>
+        <span class="small">TikTok · Mẹo thi & tin tuyển sinh</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>© 2026 HOCMAIBOOK · Xoá Mù VACT</div>
+    <div class="disc">Trang thông tin tổng hợp, <b>không phải</b> trang chính thức của ĐHQG TP.HCM.<br>
+      Thông tin chính thức: <a href="https://thinangluc.vnuhcm.edu.vn" target="_blank" rel="noopener">thinangluc.vnuhcm.edu.vn</a></div>
+  </footer>
+
+  <script>
+    // === Form gửi câu hỏi → Google Sheet ===
+    // Thay URL dưới đây bằng Web App URL Apps Script của bạn
+    var SHEET_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbzFz54m3AVVd8Z-kifFQykxqRyDzakBVB6YccaCsqMTyt1x1qZY2bPXkEQ4rhWy1GRQ/exec";
+
+    document.getElementById("send").addEventListener("click", function(){
+      var q = document.getElementById("q").value.trim();
+      var msg = document.getElementById("msg");
+      if(!q){
+        msg.className = "msg err";
+        msg.textContent = "Bạn nhập câu hỏi trước nhé 😊";
+        return;
+      }
+      msg.className = "msg";
+      msg.style.display = "block";
+      msg.textContent = "Đang gửi...";
+
+      fetch(SHEET_WEBAPP_URL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: {"Content-Type": "application/x-www-form-urlencoded"},
+        body: "cauhoi=" + encodeURIComponent(q) + "&nguon=VACT"
+      }).then(function(){
+        msg.className = "msg ok";
+        msg.textContent = "Đã gửi! Cảm ơn bạn, tụi mình sẽ giải đáp sớm 💛";
+        document.getElementById("q").value = "";
+      }).catch(function(){
+        // no-cors không đọc được response, nhưng request vẫn gửi đi
+        msg.className = "msg ok";
+        msg.textContent = "Đã gửi! Cảm ơn bạn 💛";
+        document.getElementById("q").value = "";
+      });
+    });
+  </script>
+
+</body>
+</html>
